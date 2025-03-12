@@ -38,10 +38,12 @@ img {
 
 .gallery {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    flex-direction: column;  
+    align-items: center;    
+    gap: 20px;                
+    width: 100%;            
 }
+
 
 .paintings {
     display: flex;
@@ -63,7 +65,7 @@ img {
     width: 100%; 
     max-width: 400px; 
     height: auto;
-    border-radius: 10px; 
+    border-radius: 0px; 
 }
 
 .painting p {
